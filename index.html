@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Times Of India</title>
+
+
+    <style>
+
+        .headline{
+            display: block;
+            text-align: center;
+            font-family: serif;
+            font-weight: bolder;
+            font-size: 40px;
+             height: 100px;
+             align-content: center;
+             width: 100% ;
+             border: 5px solid black;
+        }
+
+        .headbox{
+            margin-top: 70px;
+            
+  
+        }
+
+        img{
+            height:200px ;
+            width: 300px; 
+            padding: 5px;
+            float: left;
+           
+        }
+
+        .box{
+            display: flex;
+            padding: 10px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+            
+           
+        }
+
+        .first{
+            flex: 30%;
+            border: 2px solid black;
+            margin-right: 5px;
+        }
+
+        .second{
+            flex: 30%;
+            border: 2px solid black;
+            margin-right: 5px;
+        }
+
+        .third{
+            flex: 30%;
+            border: 2px solid black;
+        }
+
+        p{
+            font-size: 20px;
+        }
+
+        .clear{
+            clear: both;
+        }
+
+        .footer{
+            display: flex;
+            gap: 10px; 
+            border: 2px solid black;
+            
+        }
+       
+        @media(max-width : 380px){
+            p{
+               font-size: 15px;
+            }
+
+        .box{
+            display: flex;
+            padding: 10px;
+            margin-top: 30px;
+            flex-flow: column;
+            
+        }
+        img{
+            height:100px ;
+            width: 140px; 
+            padding: 5px;
+            float: left;
+           
+        }
+    }
+       
+
+    </style>
+</head>
+<body>
+
+    <div class="headline ">Times Of India</div>
+
+    <div class="box">
+        <div class ="box first">
+            <img  src="images/Screenshot (189).png" alt="adidas shoes">
+            <p>We started in a wash room and conquered the world. And in between, we’ve scored big and sometimes struggled to reach our goals. We’ve done our best for the best. We’ve improved and grown. Looking ahead to the future, always remembering where we came from. This is our story.</p>
+         </div>
+
+        <div class ="box second">
+            <img  src="images/wallpaperflare.com_wallpaper (1).jpg" alt="porsche 911">
+            <p>The Porsche 911 was first unveiled to the public on 12 September 1963 when it was launched at the Frankfurt International Motor Show. Full production of the car began a year later in September 1964 at the Porsche factory in Zuffenhausen.
+
+                The second production model to be made by the company after the Porsche 356, interestingly the 911 was originally called the 901. However, by the time the model went on sale it had become the 911 after a claim about naming rights from French car manufacturer, Peugeot. The 911 name not only stuck but has since become synonymous with success on both road and racetrack.</p>
+         </div>
+
+        <div class ="box third">
+            <img  src="images/wp5337656-kobe-bryant-quotes-wallpapers.jpg" alt="kobe bryant">
+            <p>As soon as he was drafted by the Magic, he was traded to the Los Angeles Lakers, where his name would be immortalized. Kobe finished his career with 5 NBA titles, 2x Finals MVPs, and a regular season MVP. He was selected 18 times in the All-Star, and also included in the NBA 75th Anniversary team. This looks all fancy and pleasing to the eye, however, nothing was given to Kobe, and he had to earn everything he has. </p>
+         </div>
+    </div>
+
+    <div class="footer">
+        <div ><a href="webpages/contact-us.html">contact us</a> </div>
+        <div> <a href="webpages/about.html">about us</a></div>
+    </div>
+    
+
+</body>
+</html>
